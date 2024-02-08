@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="startWindow" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.ResponsiveFormController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/photo-1526488807855-309186804587.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="169.0" layoutY="380.0" text="Battlefield game with JavaFX. All rights reserved, 2024. © Sam1nda.fernando." textFill="WHITE">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="start" layoutX="200.0" layoutY="322.0" onAction="#startOnAction" prefHeight="42.0" prefWidth="203.0" style="-fx-background-color: #BED1CF; -fx-background-radius: 10; -fx-border-color: white; -fx-border-radius: 10;" text="Start Game" textFill="WHITE" />
+   </children>
+</AnchorPane>
