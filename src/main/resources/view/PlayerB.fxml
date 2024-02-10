@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="second" prefHeight="338.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.PlayerBController">
+   <children>
+      <CheckBox fx:id="bT56" layoutX="99.0" layoutY="39.0" mnemonicParsing="false" onAction="#bT56Action" text="T-56">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="bBomb" layoutX="102.0" layoutY="266.0" mnemonicParsing="false" onAction="#bBombAction" text="bomb">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="bPistol" layoutX="102.0" layoutY="206.0" mnemonicParsing="false" onAction="#bPistolAction" text="Pistol">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="bMulti" layoutX="102.0" layoutY="144.0" mnemonicParsing="false" onAction="#bMultiAction" text="Multi-Barrel">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="bTank" layoutX="99.0" layoutY="91.0" mnemonicParsing="false" onAction="#bTankAction" text="Tank">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="playB" layoutX="218.0" layoutY="303.0" prefHeight="21.0" prefWidth="97.0" text=" " textFill="#26ae89" />
+   </children>
+</AnchorPane>

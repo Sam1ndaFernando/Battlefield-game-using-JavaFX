@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="scoreWindow" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.ScoreDisplayController">
+   <children>
+      <Label layoutX="248.0" layoutY="11.0" text="Score">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="scoreDisplay" layoutX="24.0" layoutY="96.0" prefHeight="215.0" prefWidth="555.0" style="-fx-background-color: #E3E1D9; -fx-background-radius: 20;">
+         <children>
+            <Label fx:id="winner" alignment="CENTER" layoutX="33.0" layoutY="39.0" prefHeight="143.0" prefWidth="497.0" text="None">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="playAgain" layoutX="245.0" layoutY="337.0" onAction="#playAgainOnAction" prefHeight="38.0" prefWidth="111.0" style="-fx-background-color: #E3E1D9; -fx-background-radius: 10;" text="Play Again" />
+   </children>
+</AnchorPane>
