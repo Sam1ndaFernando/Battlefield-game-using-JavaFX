@@ -12,6 +12,6 @@
             <Image url="@../assets/startBg.png" />
          </image>
       </ImageView>
-      <JFXButton fx:id="start" layoutX="500.0" layoutY="706.0" onAction="#startOnAction" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: #BED1CF; -fx-background-radius: 5; -fx-border-color: white; -fx-border-radius: 5;" text="Start Game" />
+      <JFXButton fx:id="start" layoutX="500.0" layoutY="706.0" onAction="#startOnAction" prefHeight="47.0" prefWidth="200.0" style="-fx-background-color: #15F5BA; -fx-background-radius: 5; -fx-border-color: white; -fx-border-radius: 5; -fx-font-size: 20;" text="Start Game" />
    </children>
 </AnchorPane>

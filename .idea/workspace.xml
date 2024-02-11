@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2afb7eb6-a9a2-4a72-849f-a798e7d5dffb" name="Changes" comment="Ui sizes fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/Battlefield.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PlayerA.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PlayerA.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/PlayerB.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/PlayerB.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +98,7 @@
       <workItem from="1707621779855" duration="3869000" />
       <workItem from="1707626389355" duration="68000" />
       <workItem from="1707626489247" duration="1065000" />
+      <workItem from="1707630287952" duration="1206000" />
     </task>
     <task id="LOCAL-00001" summary="navigation foam created">
       <created>1707367960596</created>

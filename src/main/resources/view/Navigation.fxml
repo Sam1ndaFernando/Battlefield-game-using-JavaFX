@@ -29,7 +29,7 @@
             </Label>
             <AnchorPane fx:id="playerAWindow" layoutX="40.0" layoutY="82.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="338.0" prefWidth="337.0">
                <children>
-                  <ImageView fitHeight="231.0" fitWidth="141.0" layoutX="197.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="249.0" fitWidth="171.0" layoutX="178.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../assets/3-2-battlefield-png-image.png" />
                      </image>
@@ -48,7 +48,7 @@
             <JFXButton fx:id="selectB" layoutX="124.0" layoutY="471.0" onAction="#SelectBOnAction" prefHeight="45.0" prefWidth="171.0" style="-fx-background-color: #747264; -fx-background-radius: 5;" text="Select Weapon" textFill="WHITE" />
             <AnchorPane fx:id="playerBWindow" layoutX="40.0" layoutY="82.0" prefHeight="338.0" prefWidth="337.0">
                <children>
-                  <ImageView fitHeight="175.0" fitWidth="171.0" layoutX="162.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="219.0" fitWidth="223.0" layoutX="113.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../assets/ZxUSygH5POHzvQlsAiDUAAJ7vrsbMFrbZLoQtrooNBQ.png" />
                      </image>
