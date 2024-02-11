@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2afb7eb6-a9a2-4a72-849f-a798e7d5dffb" name="Changes" comment="Ui sizes fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/NavigationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/NavigationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ResponsiveFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ResponsiveFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ScoreDisplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ScoreDisplayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/Battlefield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +95,8 @@
       <workItem from="1707402961330" duration="2873000" />
       <workItem from="1707575365685" duration="3361000" />
       <workItem from="1707621779855" duration="3869000" />
+      <workItem from="1707626389355" duration="68000" />
+      <workItem from="1707626489247" duration="1065000" />
     </task>
     <task id="LOCAL-00001" summary="navigation foam created">
       <created>1707367960596</created>

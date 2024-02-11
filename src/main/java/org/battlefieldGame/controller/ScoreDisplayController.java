@@ -42,7 +42,7 @@ public class ScoreDisplayController {
         PlayerAController.removeScoreCount();
         PlayerBController.removeScoreCount();
         Stage stage = (Stage) scoreWindow.getScene().getWindow();
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("Navigation.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/Navigation.fxml"))));
         stage.centerOnScreen();
     }
 
