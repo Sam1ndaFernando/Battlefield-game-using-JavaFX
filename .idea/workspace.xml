@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2afb7eb6-a9a2-4a72-849f-a798e7d5dffb" name="Changes" comment="some class created and coded.">
+    <list default="true" id="2afb7eb6-a9a2-4a72-849f-a798e7d5dffb" name="Changes" comment="completed">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/scoreBg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/Appinitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/Appinitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAWeaponStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerAWeaponStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBWeaponStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/PlayerBWeaponStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ResponsiveFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ResponsiveFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ScoreDisplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/ScoreDisplayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/T56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/T56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/battlefieldGame/controller/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/Battlefield.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/Battlefield.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/Navigation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ResponsiveForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/ScoreDisplay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/ScoreDisplay.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1707393436525" duration="217000" />
       <workItem from="1707402961330" duration="2873000" />
       <workItem from="1707575365685" duration="3361000" />
-      <workItem from="1707621779855" duration="758000" />
+      <workItem from="1707621779855" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="navigation foam created">
       <created>1707367960596</created>
@@ -123,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707578181678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed">
+      <created>1707622578980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707622578980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
     <MESSAGE value="navigation foam created" />
     <MESSAGE value="responsive form created" />
     <MESSAGE value="some class created and coded." />
-    <option name="LAST_COMMIT_MESSAGE" value="some class created and coded." />
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
 </project>

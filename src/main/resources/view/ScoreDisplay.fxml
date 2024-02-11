@@ -2,26 +2,32 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:id="scoreWindow" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.ScoreDisplayController">
+<AnchorPane fx:id="scoreWindow" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.ScoreDisplayController">
    <children>
-      <Label layoutX="248.0" layoutY="11.0" text="Score">
+      <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/scoreBg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="61.0" layoutY="44.0" text="Scoreboard  " textFill="WHITE">
          <font>
-            <Font size="39.0" />
+            <Font size="96.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="scoreDisplay" layoutX="24.0" layoutY="96.0" prefHeight="215.0" prefWidth="555.0" style="-fx-background-color: #E3E1D9; -fx-background-radius: 20;">
+      <AnchorPane fx:id="scoreDisplay" layoutX="174.0" layoutY="307.0" prefHeight="215.0" prefWidth="1020.0" style="-fx-background-color: transperent; -fx-background-radius: 20;">
          <children>
-            <Label fx:id="winner" alignment="CENTER" layoutX="33.0" layoutY="39.0" prefHeight="143.0" prefWidth="497.0" text="None">
+            <Label fx:id="winner" layoutX="4.0" layoutY="10.0" prefHeight="197.0" prefWidth="1005.0" text="None">
                <font>
                   <Font size="60.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <JFXButton fx:id="playAgain" layoutX="245.0" layoutY="337.0" onAction="#playAgainOnAction" prefHeight="38.0" prefWidth="111.0" style="-fx-background-color: #E3E1D9; -fx-background-radius: 10;" text="Play Again" />
+      <JFXButton fx:id="playAgain" layoutX="440.0" layoutY="634.0" onAction="#playAgainOnAction" prefHeight="72.0" prefWidth="305.0" style="-fx-background-color: #12372A; -fx-background-radius: 10; -fx-font-size: 30; -fx-border-color: white; -fx-border-radius: 10;" text="Play Again" textFill="WHITE" />
    </children>
 </AnchorPane>

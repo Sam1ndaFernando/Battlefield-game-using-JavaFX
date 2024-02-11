@@ -7,29 +7,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="startWindow" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E3E1D9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.NavigationController">
+<AnchorPane fx:id="startWindow" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #E3E1D9;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.battlefieldGame.controller.NavigationController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="800.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../assets/Untitled-1.jpg" />
          </image>
       </ImageView>
-      <Label fx:id="labelTitle" graphicTextGap="0.0" layoutX="178.0" layoutY="15.0" text="Ready Your Weapons" textFill="WHITE">
+      <Label fx:id="labelTitle" graphicTextGap="0.0" layoutX="430.0" layoutY="27.0" text="Ready Your Weapons" textFill="WHITE">
          <font>
-            <Font size="25.0" />
+            <Font size="36.0" />
          </font>
       </Label>
-      <AnchorPane fx:id="anchorMainA" layoutX="47.0" layoutY="72.0" prefHeight="261.0" prefWidth="221.0" style="-fx-background-color: #C7C8CC; -fx-background-radius: 30;">
+      <AnchorPane fx:id="anchorMainA" layoutX="100.0" layoutY="128.0" prefHeight="551.0" prefWidth="419.0" style="-fx-background-color: #C7C8CC; -fx-background-radius: 30;">
          <children>
-            <Label layoutX="74.0" layoutY="10.0" text="Player A" textFill="WHITE">
+            <JFXButton fx:id="selectA" layoutX="124.0" layoutY="471.0" onAction="#selectAOnAction" prefHeight="45.0" prefWidth="171.0" style="-fx-background-color: #747264; -fx-background-radius: 5;" text="Select Weapon" textFill="WHITE" />
+            <Label layoutX="41.0" layoutY="23.0" text="Player A" textFill="WHITE">
                <font>
-                  <Font size="20.0" />
+                  <Font size="30.0" />
                </font>
             </Label>
-            <JFXButton fx:id="selectA" layoutX="49.0" layoutY="227.0" onAction="#selectAOnAction" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #747264; -fx-background-radius: 5;" text="Select Weapon" textFill="WHITE" />
-            <AnchorPane fx:id="playerAWindow" layoutX="23.0" layoutY="46.0" prefHeight="173.0" prefWidth="171.0">
+            <AnchorPane fx:id="playerAWindow" layoutX="40.0" layoutY="82.0" prefHeight="338.0" prefWidth="337.0">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="326.0" fitWidth="321.0" layoutX="77.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../assets/3-2-battlefield-png-image.png" />
                      </image>
@@ -38,17 +38,17 @@
             </AnchorPane>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="anchorMainB" layoutX="330.0" layoutY="73.0" prefHeight="261.0" prefWidth="221.0" style="-fx-background-color: #C7C8CC; -fx-background-radius: 30;">
+      <AnchorPane fx:id="anchorMainB" layoutX="690.0" layoutY="128.0" prefHeight="551.0" prefWidth="419.0" style="-fx-background-color: #C7C8CC; -fx-background-radius: 30;">
          <children>
-            <Label layoutX="74.0" layoutY="10.0" text="Player B" textFill="WHITE">
+            <Label layoutX="41.0" layoutY="23.0" text="Player B" textFill="WHITE">
                <font>
-                  <Font size="20.0" />
+                  <Font size="30.0" />
                </font>
             </Label>
-            <JFXButton fx:id="selectB" layoutX="52.0" layoutY="227.0" onAction="#SelectBOnAction" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #747264; -fx-background-radius: 5;" text="Select Weapon" textFill="WHITE" />
-            <AnchorPane fx:id="playerBWindow" layoutX="29.0" layoutY="46.0" prefHeight="173.0" prefWidth="171.0">
+            <JFXButton fx:id="selectB" layoutX="124.0" layoutY="471.0" onAction="#SelectBOnAction" prefHeight="45.0" prefWidth="171.0" style="-fx-background-color: #747264; -fx-background-radius: 5;" text="Select Weapon" textFill="WHITE" />
+            <AnchorPane fx:id="playerBWindow" layoutX="40.0" layoutY="82.0" prefHeight="338.0" prefWidth="337.0">
                <children>
-                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="326.0" fitWidth="321.0" layoutX="9.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../assets/ZxUSygH5POHzvQlsAiDUAAJ7vrsbMFrbZLoQtrooNBQ.png" />
                      </image>
@@ -57,6 +57,6 @@
             </AnchorPane>
          </children>
       </AnchorPane>
-      <JFXButton fx:id="BattleStart" layoutX="237.0" layoutY="359.0" onAction="#BattleStartOnAction" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #294B29; -fx-border-color: #96E9C6; -fx-background-radius: 8; -fx-border-radius: 8;" text="Battle Start" textFill="WHITE" />
+      <JFXButton fx:id="BattleStart" layoutX="472.0" layoutY="719.0" onAction="#BattleStartOnAction" prefHeight="45.0" prefWidth="236.0" style="-fx-background-color: #294B29; -fx-border-color: white; -fx-background-radius: 8; -fx-border-radius: 8;" text="Battle Start" textFill="WHITE" />
    </children>
 </AnchorPane>
