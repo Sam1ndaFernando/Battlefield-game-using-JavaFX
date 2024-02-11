@@ -1,16 +1,21 @@
 package org.battlefieldGame.controller;
 
+import animatefx.animation.Pulse;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.IntegerBinding;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
-public class PlayerAController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class PlayerAController implements Initializable {
 
     @FXML
     private AnchorPane first;
@@ -168,4 +173,8 @@ public class PlayerAController {
         return removeCount;
     }
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+            new Pulse(first).play();
+    }
 }

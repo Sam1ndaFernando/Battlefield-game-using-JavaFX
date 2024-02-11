@@ -1,14 +1,19 @@
 package org.battlefieldGame.controller;
 
+import animatefx.animation.Pulse;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.IntegerBinding;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class PlayerBController {
 
@@ -50,6 +55,9 @@ public class PlayerBController {
     private final int maxNumSelected =  3;
 
     public void initialize(){
+
+        new Pulse(second).play();
+
         configureCheckBox(bT56);
         configureCheckBox(bTank);
         configureCheckBox(bMulti);
@@ -165,5 +173,6 @@ public class PlayerBController {
         int removeCount = score1+score2+score3+score4+score5;
         return removeCount;
     }
+
 
 }
